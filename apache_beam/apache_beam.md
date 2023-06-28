@@ -1,5 +1,48 @@
 
 
+# a docker project for apache beam project run time 
+
+[![https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/cmgm/docker_beam)
+
+
+# set up the run time i  google VM 
+
+
+
+```
+cd ~
+
+DIR=$HOME/apps
+if [ -d "$DIR" ];
+then
+    echo "$DIR directory exists." ;
+    cd $DIR ;
+else
+	echo "$DIR directory does not exist. Going to  create" ;
+    mkdir $DIR ;
+fi
+
+
+git clone git@github.com:cmgm/docker_beam.git
+
+git pull 
+
+## hide local changes 
+git stash
+git pull 
+```
+
+# docker compose 
+```
+docker compose up -d
+docker compose ps 
+docker compose down
+
+```
+
+
+
+
 #  links
 
 https://beam.apache.org/documentation/
