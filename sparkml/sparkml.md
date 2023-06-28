@@ -1,9 +1,14 @@
 
 # Run pyspark 
 
-docker run -it apache/spark-py /opt/spark/bin/pyspark
+```
+docker run -it apache/spark-py /opt/spark/bin/pyspark 
+```
 
+```
 docker run -it --rm -p 8888:8888 jupyter/all-spark-notebook
+```
+
 -- code in
 
 https://spark.apache.org/docs/latest/api/python/index.html
@@ -34,13 +39,13 @@ https://github.com/jupyter/docker-stacks
 
 
 # usefull 
-
-- install pandas from ipython
+```python
+install pandas from ipython
 import pip
 pip.main(['install', 'pandas'])
 import importlib
 importlib.reload(pandas)
-
+```
 
 
 
