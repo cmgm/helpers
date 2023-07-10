@@ -61,3 +61,20 @@ https://hub.docker.com/r/apache/spark-py
 https://spark.apache.org/docs/latest/api/python/getting_started/quickstart_df.html
 
 https://hub.docker.com/r/jupyter/all-spark-notebook/
+
+
+## install link 
+
+https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/
+
+
+Environment 
+
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_201
+PATH = %PATH%;%JAVA_HOME%
+
+SPARK_HOME  = C:\apps\opt\spark-3.0.0-bin-hadoop2.7
+HADOOP_HOME = C:\apps\opt\spark-3.0.0-bin-hadoop2.7
+PATH=%PATH%;%SPARK_HOME%
+
+
