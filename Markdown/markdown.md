@@ -11,7 +11,12 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 https://colab.research.google.com/notebooks/markdown_guide.ipynb
 
+## Diagrams in md
+https://www.freecodecamp.org/news/diagrams-as-code-with-mermaid-github-and-vs-code/ 
+
 # Tools , editor
 https://stackedit.io/app
+
+
 
 
